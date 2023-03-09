@@ -4,6 +4,7 @@
 
 #include <iostream> 
 #include <string>
+#include <vector>
 
 // Abstract class move that we will later use to inherit child classes for different moves
 
@@ -11,6 +12,9 @@ class Move
 {
 
 protected:
+std::string moveType;
+vector<string> wins;
+vector<string> loses;
 
 public:
 // returns the name of a Move instance, for example "Ninja".
@@ -21,6 +25,6 @@ std::string getName();
 };
 
 // Destructor 
-~Move();
+// ~Move();
 
 #endif
