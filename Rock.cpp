@@ -7,7 +7,7 @@ using namespace std;
 
 Rock::Rock()
 {
-    this->Name = "Rock";
-    wins = {"Paper"}
+    this->Name = {"Rock"};
+    wins = {"Paper"};
     loses = {"Scissors"};
 }

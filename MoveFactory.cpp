@@ -18,7 +18,8 @@ unordered_map<std::string, MoveFactory::Name> MoveFactory::mapMoves =
     {"Zombie",MoveFactory::Name::Zombie}
 };
 
-MoveFactory(){}
+// MoveFactory(){}
+
 Move* MoveFactory::createMove() const
 {
     string moveName;
@@ -32,35 +33,35 @@ Move* MoveFactory::createMove() const
 
         switch (mapMoves[moveName])
         {
-            case Name::Rock;
+            case Name::Rock:
             return new Rock;
             break;
             
-            case Name::Paper;
+            case Name::Paper:
             return new Paper;
             break;
 
-            case Name::Scissors;
+            case Name::Scissors:
             return new Scissors;
             break;
 
-            case Name::Pirate;
+            case Name::Pirate:
             return new Pirate;
             break;
 
-            case Name::Ninja;
+            case Name::Ninja:
             return new Ninja;
             break;
 
-            case Name::Robot;
+            case Name::Robot:
             return new Robot;
             break;
 
-            case Name::Zombie;
+            case Name::Zombie:
             return new Zombie;
             break;
 
-            case Name::Monkey;
+            case Name::Monkey:
             return new Monkey;
             break;
 

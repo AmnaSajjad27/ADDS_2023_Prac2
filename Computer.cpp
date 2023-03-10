@@ -1,5 +1,6 @@
 #include "Computer.h"
 #include "Rock.h"
+#include "Move.h"
 #include <string>
 
 using namespace std;
@@ -18,5 +19,5 @@ Move* Computer::makeMove()
 
 string Computer::getName()
 {
-    return name;
+    return Name;
 }

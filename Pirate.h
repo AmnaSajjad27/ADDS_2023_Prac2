@@ -9,7 +9,7 @@ class Pirate:public Move
 {
     public:
 
-    Pirate(){};
+    Pirate();
 };
 
 #endif

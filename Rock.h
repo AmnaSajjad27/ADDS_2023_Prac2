@@ -9,7 +9,7 @@ class Rock:public Move
 {
     public:
 
-    Rock(){};
+    Rock();
 };
 
 #endif

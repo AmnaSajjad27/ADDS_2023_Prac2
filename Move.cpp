@@ -1,30 +1,29 @@
 #include "Move.h"
+#include <iostream>
 
 using namespace std;
 
 // Constructor 
 string Move::getName()
 {
-    return this-> Name;
+    return this->Name;
 }
 
-/ logic to check 
+// logic to check 
 
-bool Move::winner(Move* oppMove)
+bool Move::winner(Move* oppmove)
 {
-    string oppMove = oppMove->getName();
+    string move = Move->getName();
     
-    if (find(wins.begin(), wins.end(), oppMove) != wins.end() )
+    if (find(wins.begin(), wins.end(), move) != wins.end() )
     {
         return true;
     }
-    else if( find(loses.begin(),loses.end(), oppMove) != loses.end() )
+    else if( find(loses.begin(),loses.end(), move) != loses.end() )
     {
         return false;
     }
     else 
-    {
         std::cout << "no outcome";
         return false;
-    }
 }

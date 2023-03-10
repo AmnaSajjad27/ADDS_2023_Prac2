@@ -6,19 +6,20 @@
 // Abstract class player 
 #include <iostream> 
 #include <string>
+#include "Move.h"
 
 class Player
 {
     protected:
     // Each player has a name and its move
     std::string Name;
-    char Move;
+   // Move* Move;
 
     public:
 
     // set the name and move of the player 
     // void setName(std::string name); 
-    virtual char makeMove() = 0;
+    Move* makeMove();
 
     // get the name and move of the player 
     std::string getName();

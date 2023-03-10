@@ -9,7 +9,7 @@ class Monkey:public Move
 {
     public:
 
-    Monkey(){};
+    Monkey();
 };
 
 #endif

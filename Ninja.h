@@ -8,7 +8,7 @@ class Ninja:public Move
 {
     public:
 
-    Ninja(){};
+    Ninja();
 };
 
 #endif

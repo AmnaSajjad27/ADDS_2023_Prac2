@@ -7,16 +7,16 @@ using namespace std;
 
 Human::Human()
 {
-    this->Name = "Human";
+    Name = "Human";
 }
 Human::Human(string name)
 {
-    this->Name = name;
+    Name = name;
 }
 
 // function that gets the move 
 // commitng 
-*Move Human::makeMove()
+Move* Human::makeMove()
 {
     // check if there is move in Name and return address 
     // create an instance of a move type
@@ -26,5 +26,5 @@ Human::Human(string name)
 
 string Human::getName()
 {
-    return name;
+    return Name;
 }

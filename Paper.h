@@ -9,7 +9,7 @@ class Paper:public Move
 {
     public:
 
-    Paper(){};
+    Paper();
 };
 
 #endif

@@ -9,7 +9,7 @@ class Scissors:public Move
 {
     public:
 
-    Scissors(){};
+    Scissors();
 };
 
 #endif
