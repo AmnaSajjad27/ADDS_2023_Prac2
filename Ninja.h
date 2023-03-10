@@ -1,4 +1,3 @@
-// Inherited Class Paper from Move
 
 #ifndef NINJA_H
 #define NINJA_H
@@ -11,9 +10,9 @@ class Ninja:public Move
 
     Ninja()
     {
-        moveType = "Ninjs";
-        vector<string> wins = {""};
-        vector<string> loses = {""};
+        moveType = "Ninja";
+        vector<string> wins = {"Pirate", "Zombie"};
+        vector<string> loses = {"Monkey", "Robot"};
     }
 };
 

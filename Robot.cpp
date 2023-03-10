@@ -5,16 +5,30 @@ using namespace std;
 
 // default constructor 
 
-Robot:: Robot()
+Robot::Robot()
 {
-    this->Name = "Robot";
+    this->Name = "Monkey";
+    vector<string> wins = {"Ninja", "Zombie"};
+    vector<string> loses = {"Monkey","Pirate"};
 }
-// 
 
-bool Robot::winner(string moveName)
+// logic to check 
+
+bool Robot::winner(Move* oppMove)
 {
-    if (moveName == "Monkey" || moveName == "Pirate")
-        return false;
-    else
+    string oppMove = oppMove->getName();
+    
+    if (find(wins.begin(), wins.end(), oppMove) != wins.end() )
+    {
         return true;
+    }
+    else if( find(loses.begin(),loses.end(), oppMove) != loses.end() )
+    {
+        return false;
+    }
+    else 
+    {
+        std::cout << "no outcome";
+        return false;
+    }
 }

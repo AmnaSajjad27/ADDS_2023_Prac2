@@ -1,20 +1,20 @@
-#include "Pirate.h"
+#include "Zombie.h"
 #include "string"
 
 using namespace std;
 
 // default constructor 
 
-Pirate::Pirate()
+Zombie::Zombie()
 {
-    this->Name = "Pirate";
-    vector<string> wins = {"Robot", "Monkey"};
-    vector<string> loses = {"Ninja", "Zombie"};
+    this->Name = "Ninja";
+    vector<string> wins = {"Pirate", "Monkey"};
+    vector<string> loses = {"Ninja", "Robot"};
 }
 
 // logic to check 
 
-bool Pirate::Pirate(Move* oppMove)
+bool Zombie::winner(Move* oppMove)
 {
     string oppMove = oppMove->getName();
     

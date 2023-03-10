@@ -8,7 +8,7 @@ using namespace std;
 Monkey::Monkey()
 {
     this->Name = "Monkey";
-    vector<string> wins = {"Pirate", "Zoombie"};
+    vector<string> wins = {"Pirate", "Zombie"};
     vector<string> loses = {"Ninja", "Robot"};
 }
 

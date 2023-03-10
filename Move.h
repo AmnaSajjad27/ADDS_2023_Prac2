@@ -19,6 +19,7 @@ vector<string> loses;
 public:
 // returns the name of a Move instance, for example "Ninja".
 std::string getName();
+virtual Move* winner() = 0;
 
 // we need the following child classes; Rock, Paper, Scissors, Robot, Monkey, Pirate, Ninja, Zombie
 

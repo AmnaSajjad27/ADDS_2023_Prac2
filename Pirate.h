@@ -12,8 +12,8 @@ class Pirate:public Move
     Pirate()
     {
         moveType = "Pirate";
-        vector<string> wins = {""};
-        vector<string> loses = {""};
+        vector<string> wins = {"Robot", "Monkey"};
+        vector<string> loses = {"Ninja", "Zombie"};
     }
 };
 
