@@ -23,7 +23,10 @@ bool Move::winner(Move* oppmove)
     {
         return false;
     }
-    else 
+    else
+    {
         std::cout << "no outcome";
         return false;
+    }
+    return false;
 }
