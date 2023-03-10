@@ -13,8 +13,9 @@ string Move::getName()
 
 bool Move::winner(Move* oppmove)
 {
-    string move = Move->getName();
-    
+   // string move = Move->getName();
+    string move = oppmove->getName();
+
     if (find(wins.begin(), wins.end(), move) != wins.end() )
     {
         return true;
