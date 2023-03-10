@@ -7,7 +7,7 @@ using namespace std;
 
 Zombie::Zombie()
 {
-    this->Name = "Ninja";
+    this->Name = "Zombie";
     wins = {"Pirate", "Monkey"};
     loses = {"Ninja", "Robot"};
 }
