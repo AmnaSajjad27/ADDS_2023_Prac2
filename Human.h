@@ -13,7 +13,7 @@ class Human: public Player
     // get name 
     // override 
     Human(std::string setName);
-    char makeMove();
+    Move* makeMove();
 };
 
 #endif
