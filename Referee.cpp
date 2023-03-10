@@ -7,35 +7,20 @@ using namespace std;
 
     Player * Referee::refGame(Player * player1, Player * player2)
     {
-    char h = player1->makeMove();
-    char c = player2->makeMove();
+    Move* move_1 = player1->makeMove();
+    Move* move_2 = player2->makeMove();
 
-    if (h == 'R' && c == 'R')
-    {
-        return nullptr;
-    }
-    if (h == 'P' && c == 'P')
-    {
-        return nullptr;
-    }
-    if (h == 'S' && c == 'S')
-    {
-        return nullptr;
-    }
-    if (h == 'R' && c == 'S')
-    {
-        return player2;
-    }
-    if (h == 'S' && c == 'P')
-    {
-        return player2;
-    }
-    if (h == 'P' && c == 'R')
-    {
-        return player1;
-    }
-    else 
-    {
-        return player2;
-    }
+// Check for a draw 
+
+if (move_1->getName() == move_2->getName())
+{
+    // return a nullptr
+    return nullptr;
+}
+// checks for who wins 
+// player 1's instance of winner
+else if( winner == true )
+{
+    // return player1
+}
 }

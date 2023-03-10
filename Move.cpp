@@ -8,4 +8,4 @@ string Move::getName()
     return this-> Name;
 }
 
-Move::~Move(){};
+// Move::~Move(){};

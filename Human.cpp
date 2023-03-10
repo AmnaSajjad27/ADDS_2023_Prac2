@@ -14,9 +14,9 @@ Human::Human(std::string name)
 
 // function that gets the move 
 // commitng 
-char Human::makeMove()
+*Move Human::makeMove()
 {
-    char temp = ' ';
+    Move* temp = ' ';
     //Enter R,P or S 
 
     while (temp != 'R' && temp != 'P' && temp != 'S')

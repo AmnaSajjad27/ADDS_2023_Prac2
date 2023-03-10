@@ -12,7 +12,7 @@ class Monkey:public Move
     Monkey()
     {
         moveType = "Monkey";
-        vector<string> wins = {""};
+        vector<string> wins = {"Pirate", "Zoombie"};
         vector<string> loses = {""};
     }
 };

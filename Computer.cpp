@@ -10,6 +10,14 @@ Computer::Computer()
     this->Name = "Computer";
 }
 
+// make move
+
+Move* Computer::makeMove()
+{
+    Move* Move
+}
+
+
 char Computer::makeMove()
 {
     return 'R';
