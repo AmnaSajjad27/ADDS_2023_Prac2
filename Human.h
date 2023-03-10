@@ -1,19 +1,23 @@
 // Inherited class Computer 
 #ifndef HUMAN_H
 #define HUMAN_H
-#include "Player.h"
-#include <iostream> 
 
+#include "Player.h"
+#include "moveFactory.h"
+#include <iostream>
+#include <string>
 
 class Human: public Player
 {
+    private:
+    MoveFactory inputHandler;
+
     public:
     Human();
+    Human(std::string name);
 
-    // get name 
-    // override 
-    Human(std::string setName);
     Move* makeMove();
+    std::string getName();
 };
 
 #endif

@@ -1,5 +1,5 @@
-
 #include "Computer.h"
+#include "Rock.h"
 #include <string>
 
 using namespace std;
@@ -10,15 +10,13 @@ Computer::Computer()
     this->Name = "Computer";
 }
 
-// make move
-
 Move* Computer::makeMove()
 {
-    Move* Move
+    Move* move = new Rock;
+    return(move);
 }
 
-
-Move* Computer::makeMove()
+string Computer::getName()
 {
-    return "Rock";
+    return name;
 }

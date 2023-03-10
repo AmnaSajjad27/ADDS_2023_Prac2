@@ -9,12 +9,7 @@ class Rock:public Move
 {
     public:
 
-    Rock()
-    {
-        Name = "Rock";
-        std::vector<string> wins = {"Paper"};
-        std::vector<string> loses = {"Scissors"};
-    }
+    Rock(){};
 };
 
 #endif

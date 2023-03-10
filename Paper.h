@@ -9,12 +9,7 @@ class Paper:public Move
 {
     public:
 
-    Paper()
-    {
-        moveType = "Paper";
-        vector<string> wins = {"Rock"};
-        vector<string> loses = {"Scissors"};
-    }
+    Paper(){};
 };
 
 #endif

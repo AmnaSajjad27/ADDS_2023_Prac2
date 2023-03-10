@@ -8,13 +8,7 @@
 class Robot:public Move
 {
     public:
-
-    Robot()
-    {
-        moveType = "Robot";
-        vector<std::string> wins = {"Pirate", "Monkey"};
-        vector<std::string> loses = {"Ninja", "Zombie"};
-    }
+    Robot(){};
 };
 
 #endif

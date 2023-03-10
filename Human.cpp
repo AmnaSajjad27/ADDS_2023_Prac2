@@ -1,5 +1,7 @@
-
+#include "iostream"
 #include "Human.h"
+#include <string>
+#include "moveFactory.h"
 
 using namespace std;
 
@@ -7,7 +9,7 @@ Human::Human()
 {
     this->Name = "Human";
 }
-Human::Human(std::string name)
+Human::Human(string name)
 {
     this->Name = name;
 }
@@ -16,13 +18,13 @@ Human::Human(std::string name)
 // commitng 
 *Move Human::makeMove()
 {
-    Move* temp = ' ';
-    //Enter R,P or S 
+    // check if there is move in Name and return address 
+    // create an instance of a move type
+    Move* move = inputHandler.createMove();
+    return move;
+}
 
-    while (temp != "Rock" && temp != "Paper" && temp != "Scissors")
-    {
-        std::cout << "Enter Move:";
-        std::cin >> temp;
-    }
-    return temp;
+string Human::getName()
+{
+    return name;
 }

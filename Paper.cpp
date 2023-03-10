@@ -8,17 +8,6 @@ using namespace std;
 Paper::Paper()
 {
     this->Name = "Paper";
-}
-// 
-
-bool Paper::winner(string moveName)
-{
-  if(moveName == "Scissors")
-  {
-    return false;
-  }
-  else
-  {
-    return true;
-  }
+    wins = {"Rock"};
+    loses = {"Scissors"};
 }

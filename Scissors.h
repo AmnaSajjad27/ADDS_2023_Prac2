@@ -9,10 +9,7 @@ class Scissors:public Move
 {
     public:
 
-    Scissors()
-    {
-        moveType = "Scissors";
-    }
+    Scissors(){};
 };
 
 #endif

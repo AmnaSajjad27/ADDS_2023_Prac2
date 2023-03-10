@@ -9,12 +9,7 @@ class Monkey:public Move
 {
     public:
 
-    Monkey()
-    {
-        moveType = "Monkey";
-        vector<std::string> wins = {"Pirate", "Zombie"};
-        vector<std::string> loses = {"Ninja", "Robot"};
-    }
+    Monkey(){};
 };
 
 #endif

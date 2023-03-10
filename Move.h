@@ -2,9 +2,11 @@
 #ifndef MOVE_H
 #define MOVE_H
 
-#include <iostream> 
+#include <algorithm> 
 #include <string>
 #include <vector>
+
+using namespace std:
 
 // Abstract class move that we will later use to inherit child classes for different moves
 
@@ -12,20 +14,18 @@ class Move
 {
 
 protected:
-std::string Name;
-vector<std::string> wins;
-vector<std::string> loses;
 
 public:
-// returns the name of a Move instance, for example "Ninja".
-std::string getName();
-virtual Move* winner() = 0;
 
-// we need the following child classes; Rock, Paper, Scissors, Robot, Monkey, Pirate, Ninja, Zombie
+    // returns the name of a Move instance, for example "Ninja".
+    vector<string> wins;
+    vector<string> loses;
 
+    string getName();
+    // virtual function
+    bool winner(Move* move);
+    Move();
+    
 };
-
-// Destructor 
-// ~Move();
 
 #endif

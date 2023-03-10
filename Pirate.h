@@ -9,12 +9,7 @@ class Pirate:public Move
 {
     public:
 
-    Pirate()
-    {
-        moveType = "Pirate";
-        vector<std::string> wins = {"Robot", "Monkey"};
-        vector<std::string> loses = {"Ninja", "Zombie"};
-    }
+    Pirate(){};
 };
 
 #endif

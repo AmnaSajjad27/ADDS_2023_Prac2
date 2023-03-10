@@ -2,17 +2,12 @@
 #define ZOMBIE_H
 
 #include "zombie.h"
+#include <string>
 
 class Zombie:public Move
 {
     public:
-
-    Zombie()
-    {
-        moveType = "Zombie";
-        vector<std::string> wins = {"Pirate", "Monkey"};
-        vector<std::string> loses = {"Ninja", "Robot"};
-    }
+    Zombie(){};
 };
 
 #endif

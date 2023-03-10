@@ -8,17 +8,6 @@ using namespace std;
 Rock::Rock()
 {
     this->Name = "Rock";
-}
-// 
-
-bool Rock::winner(string moveName)
-{
-  if(moveName == "Scissors")
-  {
-    return true;
-  }
-  else
-  {
-    return false;
-  }
+    wins = {"Paper"}
+    loses = {"Scissors"};
 }

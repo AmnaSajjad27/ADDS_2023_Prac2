@@ -16,7 +16,6 @@ using namespace std;
 string Player::getName()
 {
     return this->Name;
-
 }
 
 Player::~Player(){}
