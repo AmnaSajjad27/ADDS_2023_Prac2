@@ -10,8 +10,8 @@ class Zombie:public Move
     Zombie()
     {
         moveType = "Zombie";
-        vector<string> wins = {"Pirate", "Monkey"};
-        vector<string> loses = {"Ninja", "Robot"};
+        vector<std::string> wins = {"Pirate", "Monkey"};
+        vector<std::string> loses = {"Ninja", "Robot"};
     }
 };
 

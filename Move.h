@@ -13,8 +13,8 @@ class Move
 
 protected:
 std::string Name;
-vector<string> wins;
-vector<string> loses;
+vector<std::string> wins;
+vector<std::string> loses;
 
 public:
 // returns the name of a Move instance, for example "Ninja".

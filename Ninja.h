@@ -11,8 +11,8 @@ class Ninja:public Move
     Ninja()
     {
         moveType = "Ninja";
-        vector<string> wins = {"Pirate", "Zombie"};
-        vector<string> loses = {"Monkey", "Robot"};
+        vector<std::string> wins = {"Pirate", "Zombie"};
+        vector<std::string> loses = {"Monkey", "Robot"};
     }
 };
 

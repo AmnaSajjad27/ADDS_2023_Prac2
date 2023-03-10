@@ -18,7 +18,7 @@ Move* Computer::makeMove()
 }
 
 
-char Computer::makeMove()
+Move* Computer::makeMove()
 {
-    return 'R';
+    return "Rock";
 }

@@ -12,6 +12,8 @@ class Robot:public Move
     Robot()
     {
         moveType = "Robot";
+        vector<std::string> wins = {"Pirate", "Monkey"};
+        vector<std::string> loses = {"Ninja", "Zombie"};
     }
 };
 
