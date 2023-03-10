@@ -19,9 +19,12 @@ if (move_1->getName() == move_2->getName())
 }
 // checks for who wins 
 // player 1's instance of winner
-else if( winner == true )
+else if( move_1->winner(move_2) == true )
 {
+    return(player1);
     // return player1
 }
-
+else 
+    //else return player 2
+    return(player2);
 }

@@ -7,7 +7,7 @@ using namespace std;
 
 Robot::Robot()
 {
-    this->Name = "Monkey";
+    this->Name = "Robot";
     vector<string> wins = {"Ninja", "Zombie"};
     vector<string> loses = {"Monkey","Pirate"};
 }

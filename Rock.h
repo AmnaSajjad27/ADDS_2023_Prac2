@@ -11,9 +11,9 @@ class Rock:public Move
 
     Rock()
     {
-        moveType = "Rock";
-        vector<string> wins = {"Paper"};
-        vector<string> loses = {"Scissors"};
+        Name = "Rock";
+        std::vector<string> wins = {"Paper"};
+        std::vector<string> loses = {"Scissors"};
     }
 };
 

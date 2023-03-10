@@ -12,7 +12,7 @@ class Move
 {
 
 protected:
-std::string moveType;
+std::string Name;
 vector<string> wins;
 vector<string> loses;
 

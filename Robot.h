@@ -12,8 +12,6 @@ class Robot:public Move
     Robot()
     {
         moveType = "Robot";
-        vector<string> wins = {"Ninja", "Zombie"};
-        vector<string> loses = {"Monkey","Pirate"};
     }
 };
 

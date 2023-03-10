@@ -19,7 +19,7 @@ Human::Human(std::string name)
     Move* temp = ' ';
     //Enter R,P or S 
 
-    while (temp != 'R' && temp != 'P' && temp != 'S')
+    while (temp != 'Rock' && temp != 'Paper' && temp != 'Scissors')
     {
         std::cout << "Enter Move:";
         std::cin >> temp;
