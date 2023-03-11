@@ -1,5 +1,7 @@
 #include "Referee.h"
+#include "Player.h"
 #include "Move.h"
+#include "Human.h"
 #include <string>
 
 using namespace std;
