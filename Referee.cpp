@@ -1,4 +1,5 @@
 #include "Referee.h"
+#include "Move.h"
 #include <string>
 
 using namespace std;

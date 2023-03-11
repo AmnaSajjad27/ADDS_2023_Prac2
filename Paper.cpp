@@ -1,5 +1,6 @@
 #include "Paper.h"
-#include "string"
+#include "Move.h"
+#include <string>
 
 using namespace std;
 

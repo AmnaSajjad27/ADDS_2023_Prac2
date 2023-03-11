@@ -1,7 +1,7 @@
 #ifndef REFEREE_H
 #define REFEREE_H
 #include "Human.h"
-
+#include "Move.h"
 #include <iostream> 
 
 class Referee

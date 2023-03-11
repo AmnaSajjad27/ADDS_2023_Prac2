@@ -1,7 +1,8 @@
-#include "iostream"
+#include <iostream>
+#include "Move.h"
 #include "Human.h"
 #include <string>
-// #include "moveFactory.h"
+#include "moveFactory.h"
 
 using namespace std;
 
