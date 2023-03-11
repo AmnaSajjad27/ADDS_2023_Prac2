@@ -9,6 +9,6 @@ using namespace std;
 Scissors::Scissors()
 {
     this->Name = "Scissors";
-    wins = {"Paper"};
-    loses = {"Rock"};
+    wins = {"Rock"};
+    loses = {"Paper"};
 }
