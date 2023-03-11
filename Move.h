@@ -21,6 +21,7 @@ public:
     std::vector<std::string> loses;
 
     std::string getName();
+
     // virtual function
     bool winner(Move* move);
   //  Move();
