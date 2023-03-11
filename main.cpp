@@ -7,12 +7,12 @@
 using namespace std;
 
 int main()
-{
-    Human one("Amna");
-    Computer comp;
-    Referee Andy;
+{   
+    Human one ("Amber");
+    Human two("Amna");
+    Referee Ref;
 
-    Player* temp = Andy.refGame(&one, &comp);
+    Player* temp = Ref.refGame(&one, &two);
 
     cout << temp-> getName()<<endl;
 
