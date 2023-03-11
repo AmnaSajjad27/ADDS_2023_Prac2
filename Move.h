@@ -24,7 +24,6 @@ public:
 
     // virtual function
     bool winner(Move* move);
-  //  Move();
 
 };
 

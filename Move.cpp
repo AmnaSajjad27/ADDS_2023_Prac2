@@ -20,7 +20,8 @@ bool Move::winner(Move* oppmove)
     {
         return true;
     }
-    else if( find(loses.begin(),loses.end(), move) != loses.end() )
+    // CHANGED FROM IF ELSE
+    if( find(loses.begin(),loses.end(), move) != loses.end() )
     {
         return false;
     }
