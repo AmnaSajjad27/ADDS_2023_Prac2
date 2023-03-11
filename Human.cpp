@@ -2,7 +2,7 @@
 #include "Move.h"
 #include "Human.h"
 #include <string>
-#include "moveFactory.h"
+#include "MoveFactory.h"
 
 using namespace std;
 
