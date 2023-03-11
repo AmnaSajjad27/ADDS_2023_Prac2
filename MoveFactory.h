@@ -33,7 +33,7 @@ class MoveFactory
     static std::unordered_map<std::string,Name> mapMoves;
 
     public:
-    MoveFactory();
+    // MoveFactory();
     Move* createMove() const;
 
 };

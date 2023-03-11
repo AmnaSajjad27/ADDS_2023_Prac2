@@ -23,7 +23,7 @@ public:
     std::string getName();
     // virtual function
     bool winner(Move* move);
-    Move();
+  //  Move();
 
 };
 
