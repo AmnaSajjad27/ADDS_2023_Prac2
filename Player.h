@@ -19,7 +19,7 @@ class Player
 
     // set the name and move of the player 
     // void setName(std::string name); 
-    Move* makeMove();
+    virtual Move* makeMove() = 0;
 
     // get the name and move of the player 
     std::string getName();

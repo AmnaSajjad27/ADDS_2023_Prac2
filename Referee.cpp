@@ -14,7 +14,7 @@ using namespace std;
     Player* Referee::refGame(Player* player1, Player* player2)
     {
     Move* move_1 = player1->makeMove();
-    Move* move_2 = player2->makeMove();
+    Move* move_2 = player2->makeMove ();
 
 // Check for a draw 
 
