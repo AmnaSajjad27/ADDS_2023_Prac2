@@ -3,7 +3,7 @@
 #define HUMAN_H
 
 #include "Player.h"
-#include "moveFactory.h"
+#include "MoveFactory.h"
 #include <iostream>
 #include <string>
 
