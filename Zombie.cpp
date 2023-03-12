@@ -9,6 +9,7 @@ using namespace std;
 Zombie::Zombie()
 {
     this->Name = "Zombie";
+    // Zoombie eats pirate and savages monkey
     wins = {"Pirate", "Monkey"};
     loses = {"Ninja", "Robot"};
 }

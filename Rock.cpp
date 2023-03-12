@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// default constructor 
+// constructor 
 
 Rock::Rock()
 {

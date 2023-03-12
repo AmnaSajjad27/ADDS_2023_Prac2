@@ -8,7 +8,6 @@
 class Paper:public Move
 {
     public:
-
     Paper();
 };
 

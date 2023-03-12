@@ -1,5 +1,3 @@
-// Inherited Class Paper from Move
-
 #ifndef ROBOT_H
 #define ROBOT_H
 

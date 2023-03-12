@@ -4,8 +4,7 @@
 
 using namespace std;
 
-// default constructor 
-
+// constructor 
 Paper::Paper()
 {
     this->Name = "Paper";

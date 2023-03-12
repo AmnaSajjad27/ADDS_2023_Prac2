@@ -7,6 +7,7 @@
 class Zombie:public Move
 {
     public:
+    // Constructor 
     Zombie();
 };
 

@@ -4,8 +4,7 @@
 
 using namespace std;
 
-// default constructor 
-
+// constructor 
 Scissors::Scissors()
 {
     this->Name = "Scissors";
