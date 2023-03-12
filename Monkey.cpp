@@ -1,5 +1,6 @@
 #include "Monkey.h"
 #include "Move.h"
+
 #include <string>
 
 using namespace std;
@@ -9,7 +10,8 @@ using namespace std;
 Monkey::Monkey()
 {
     this->Name = "Monkey";
-    wins = {"Pirate", "Zombie"};
-    loses = {"Ninja", "Robot"};
+    // vectors that hold who the Monkey 
+    wins = {"Ninja", "Robot"};
+    loses = {"Pirate", "Zombie"};
 }
 

@@ -5,18 +5,18 @@
 
 using namespace std;
 
-// default contructor 
+// Default contructor 
 Computer::Computer()
 {
     this->Name = "Computer";
 }
-
+// makeMove implementation 
 Move* Computer::makeMove()
 {
     Move* move = new Rock;
     return(move);
 }
-
+// getName implementation 
 string Computer::getName()
 {
     return Name;

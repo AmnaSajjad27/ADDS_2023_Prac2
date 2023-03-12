@@ -1,5 +1,4 @@
-// Inherited Class Paper from Move
-
+// inherited from class move
 #ifndef MONKEY_H
 #define MONKEY_H
 
@@ -8,7 +7,7 @@
 class Monkey:public Move
 {
     public:
-
+    // Constructor
     Monkey();
 };
 

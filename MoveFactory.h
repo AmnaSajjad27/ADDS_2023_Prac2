@@ -1,10 +1,10 @@
 #ifndef MOVEFACTORY_H
 #define MOVEFACTORY_H
 
-#include "Move.h"
 #include <unordered_map>
 #include <string>
-#include <iostream>
+
+#include "Move.h"
 #include "Rock.h"
 #include "Paper.h"
 #include "Scissors.h"
@@ -30,12 +30,12 @@ class MoveFactory
         Zombie,
     };
 
+    // definfing the map
     static std::unordered_map<std::string,Name> mapMoves;
 
     public:
-    // MoveFactory();
+    // const creatMove function of type move
     Move* createMove() const;
-
 };
 
 #endif

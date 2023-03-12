@@ -8,8 +8,11 @@
 class Computer: public Player
 {
     public:
+    // Fefault constructor 
     Computer();
+    // makeMove function
     Move* makeMove();
+    // getName function 
     std::string getName();
 };
 

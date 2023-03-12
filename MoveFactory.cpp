@@ -1,11 +1,12 @@
 #include "MoveFactory.h"
+#include "Move.h"
+
 #include <string>
 #include <iostream>
 
-#include "Move.h"
-
 using namespace std;
 
+// map of all the possiable moves a player can play
 unordered_map<std::string, MoveFactory::Name> MoveFactory::mapMoves = 
 {
     {"Rock", MoveFactory::Name::Rock},
@@ -18,19 +19,21 @@ unordered_map<std::string, MoveFactory::Name> MoveFactory::mapMoves =
     {"Zombie",MoveFactory::Name::Zombie}
 };
 
-// MoveFactory(){}
-
+// creates new instances of move type 
 Move* MoveFactory::createMove() const
 {
     string moveName;
     bool isMove = true;
 
+    // do while loop to check a valid move
     do
     {
+        // Ask for use input and hold it on moveName so we can create an instance of that move
         cout << "Enter Move: ";
         isMove = true;
         cin >>moveName;
 
+        // Using a switch statement 
         switch (mapMoves[moveName])
         {
             case Name::Rock:
