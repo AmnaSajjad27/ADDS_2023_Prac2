@@ -32,8 +32,13 @@ Player* Referee::refGame(Player* player1, Player* player2)
         return(player1);
         // return player1
     }
-    
-    else 
-        //else return player 2
+
+    // TESTING
+    if ( move_2->winner(move_1) == true)
+    {
         return(player2);
+    }
+
+    //else return player 2
+    return(player1);
 }

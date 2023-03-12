@@ -23,13 +23,13 @@ bool Move::winner(Move* oppmove)
         return true;
     }
     // CHANGED FROM IF ELSE to if upon disscusion with tutor 
-    if(find(loses.begin(),loses.end(), move) != loses.end())
+    else if(find(loses.begin(),loses.end(), move) != loses.end())
     {
         return false;
     }
     else
     {
-        std::cout << "no outcome";
+        std::cout << "no outcome" <<std::endl;
         return false;
     }
     return false;
