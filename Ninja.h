@@ -5,8 +5,7 @@
 
 class Ninja:public Move
 {
-    public:
-    // Constructor 
+    public: 
     Ninja();
 };
 

@@ -1,5 +1,7 @@
 #include "Robot.h"
 #include "Move.h"
+#include "MoveFactory.h"
+
 #include <string>
 
 using namespace std;
@@ -10,6 +12,6 @@ Robot::Robot()
 {
     this->Name = "Robot";
     // Robot chokes Ninja and crushes Zoombie 
-    wins = {"Ninja", "Zombie"};
+    wins = {"Zombie", "Ninja"};
     loses = {"Monkey","Pirate"};
 }

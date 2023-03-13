@@ -1,3 +1,4 @@
+// inherited 
 #ifndef PIRATE_H
 #define PIRATE_H
 

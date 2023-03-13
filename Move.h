@@ -9,7 +9,7 @@
 class Move
 {
     protected:
-    
+    // nothing needed here 
     public:
     // returns the name of a Move instance, for example "Ninja".
     std::string Name;

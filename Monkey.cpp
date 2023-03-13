@@ -10,8 +10,8 @@ using namespace std;
 Monkey::Monkey()
 {
     this->Name = "Monkey";
-    // vectors that hold who the Monkey 
+    // vectors that hold who the Monkey
+    wins = {"Pirate", "Zombie"}; 
     loses = {"Ninja", "Robot"};
-    wins = {"Pirate", "Zombie"};
 }
 

@@ -1,5 +1,4 @@
 // Inherited Class Paper from Move
-
 #ifndef PAPER_H
 #define PAPER_H
 

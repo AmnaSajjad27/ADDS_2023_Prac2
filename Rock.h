@@ -1,5 +1,5 @@
 // Inherited Class Rock from Move
-
+// edied
 #ifndef ROCK_H
 #define ROCK_H
 

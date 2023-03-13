@@ -23,7 +23,6 @@ Player* Referee::refGame(Player* player1, Player* player2)
         // return a nullptr
         return nullptr;
     }
-    
     // checks for who wins 
     // player 1's instance of winner
     // chnaged this from else if TO IF

@@ -3,7 +3,6 @@
 #include "Human.h"
 #include "Move.h"
 #include "MoveFactory.h"
-
 #include <iostream> 
 
 class Referee

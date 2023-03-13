@@ -9,7 +9,7 @@ using namespace std;
 Pirate::Pirate()
 {
     this->Name = "Pirate";
-    // Pirate downs robot and Skewers monkey
+    // Pirate downs robot and also Skewers monkey
     wins = {"Robot", "Monkey"};
     loses = {"Ninja", "Zombie"};
 }
