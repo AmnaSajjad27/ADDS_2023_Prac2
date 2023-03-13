@@ -11,7 +11,7 @@ Monkey::Monkey()
 {
     this->Name = "Monkey";
     // vectors that hold who the Monkey 
-    wins = {"Ninja", "Robot"};
-    loses = {"Pirate", "Zombie"};
+    loses = {"Ninja", "Robot"};
+    wins = {"Pirate", "Zombie"};
 }
 
