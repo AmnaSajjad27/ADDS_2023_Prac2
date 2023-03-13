@@ -9,6 +9,6 @@ using namespace std;
 Rock::Rock()
 {
     this->Name = {"Rock"};
-    wins = {"Paper"};
-    loses = {"Scissors"};
+    wins = {"Scissors"};
+    loses = {"Paper"};
 }
