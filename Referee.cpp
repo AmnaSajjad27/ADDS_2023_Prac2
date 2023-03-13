@@ -27,18 +27,13 @@ Player* Referee::refGame(Player* player1, Player* player2)
     // checks for who wins 
     // player 1's instance of winner
     // chnaged this from else if TO IF
-    if( move_1->winner(move_2) == true)
+    else if( move_1->winner(move_2) == true)
     {
         return(player1);
         // return player1
     }
-
-    /* 
-    if ( move_2->winner(move_1) == true)
+    else
     {
-        return(player2);
+        return(player1);
     }
-    */
-    //else return player 2
-    return(player1);
 }
