@@ -29,7 +29,8 @@ Move* MoveFactory::createMove() const
     do
     {
         // Ask for use input and hold it on moveName so we can create an instance of that move
-        cout << "Enter Move: ";
+        // REMOVING COUT AS PER PIAZZA SUGGESTION
+        cout << "";
         isMove = true;
         cin >>moveName;
 
