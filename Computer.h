@@ -3,12 +3,13 @@
 #define COMPUTER_H
 #include "Player.h"
 #include "Move.h"
-#include <iostream> 
+#include <iostream>
+#include <string>
 
 class Computer: public Player
 {
     public:
-    // Fefault constructor 
+    // default constructor 
     Computer();
     // makeMove function
     Move* makeMove();

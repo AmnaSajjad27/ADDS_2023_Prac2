@@ -8,7 +8,7 @@ using namespace std;
 // Default contructor 
 Computer::Computer()
 {
-    this->Name = "Computer";
+    Name = "Computer";
 }
 // makeMove implementation 
 Move* Computer::makeMove()
